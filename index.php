@@ -1,5 +1,41 @@
 <?php
 include_once('skripti_klient/connection.php');
+<<<<<<< HEAD
+session_start();
+echo session_id();
+
+
+if(strlen(session_id())==0)
+{
+
+
+    echo "<div class='sime' style='  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 850px;'>
+       <div class='loginRegister'>
+           <div class='sc_button medium blue' id='logiraj'>Login</div>
+           <div class='sc_button medium blue' id='registriraj'>Register</div>
+       </div>
+
+       </div>";
+
+
+}
+else
+{
+
+
+    echo "<div class='sime' style='  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 850px;'>
+       <div class='loginRegister'>
+           <div class='sc_button medium blue' id='logout'><a href='logout.php'>Log out </a></div>
+
+       </div>
+
+       </div>";
+
+}
+
+
+=======
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,6 +92,9 @@ include_once('skripti_klient/connection.php');
 	<!-- header -->
 
 	<div id="header_wrapper">
+<<<<<<< HEAD
+
+=======
        <div class="sime" style="  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 823px;">
        <div class="loginRegister">
            <div class="sc_button medium blue" id="logiraj">Login</div>
@@ -63,6 +102,7 @@ include_once('skripti_klient/connection.php');
        </div>
 
        </div>
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 	<!-- menu -->
 	<div id="header" style=" height: 65px; ">
 		<!-- logo -->
@@ -72,7 +112,11 @@ include_once('skripti_klient/connection.php');
 		<ul id="mainmenu" style=" height: 65px;  margin-right: -150px;     width: 700px;">
 
 		    <li style="padding-left: 20px; margin-left: 80px;">
+<<<<<<< HEAD
+		    	<a href="index.html">Почетна</a>
+=======
 		    	<a href="index.php">Почетна</a>
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 
 		    </li>
 		    <li style=" margin-left: 80px;">
@@ -122,7 +166,11 @@ include_once('skripti_klient/connection.php');
 				</div>
                 <!-- ovde e formata so pop up PRONAJDI PREDMET-->
                 <div id="contactdiv">
+<<<<<<< HEAD
+                    <form class="form" action="za_predmet.html" id="contact">
+=======
                     <form class="form" action="za_predmet.php" id="contact">
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 
                         <h3>Пронајди предмет</h3>
                         <label>Универзитет <span>*</span></label>
@@ -242,7 +290,11 @@ include_once('skripti_klient/connection.php');
                             }
                         </script>
 
+<<<<<<< HEAD
+                        <label class="naslovPredmet1" style="visibility: hidden">Професор <span>*</span></label>
+=======
                         <label class="naslovPredmet1" style="visibility: hidden">Предмети <span>*</span></label>
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
                         <input type="text" class="demo-input1" id="demo-input1" name="predmet1" style="visibility: hidden"/>
                         <script type="text/javascript">
                             function autoPredmeti1 () {
@@ -270,7 +322,11 @@ include_once('skripti_klient/connection.php');
                 <!-- Login Form -->
 
                 <div id="loginDiv">
+<<<<<<< HEAD
+                    <form class="form" action="Login.php" id="contactL" method="post">
+=======
                     <form class="form" action="jquery_popup.html" id="contactL">
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 
                         <h3>Логирај се</h3>
                         <label>Email <span>*</span></label>
@@ -292,7 +348,11 @@ include_once('skripti_klient/connection.php');
                 <!-- Register Form -->
 
                 <div id="regDiv">
+<<<<<<< HEAD
+                    <form class="form" action="register.php" id="contactR" method="post">
+=======
                     <form class="form" action="jquery_popup.html" id="contactR">
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 
                         <h3>Регистрирај се</h3>
                         <label>Име <span>*</span></label>
@@ -305,7 +365,11 @@ include_once('skripti_klient/connection.php');
                         <input type="email" name="email" id="emailR">
 
                         <label>Лозинка <span>*</span></label>
+<<<<<<< HEAD
+                        <input type="password" name="pass" id="passR">
+=======
                         <input type="text" name="pass" id="passR">
+>>>>>>> 8902866a807ee9ce53d7b3cce22d7fb8fed66b80
 
 
                         <input type="submit" id="sendR" value="Регистрирај се"/>
