@@ -15,9 +15,14 @@ while($row=mysql_fetch_array($result)) {
     echo "<input type='hidden' id='komentarID' value='" . $row['komentarID'] . "' />";
     echo "<div class='meta-info float_right'>";
     echo "<div class='date-info'>" . $row['datum'] . "</div>";
-    echo "<div class='reply-button'><a href='javascript:void(0)' class='like' title='" . $row['komentarID'] . "'>Like(" . $row['lajk'] . ")</a></div>";
-    echo "<div class='reply-button'><a href='javascript:void(0)' class='dislike' title='" . $row['komentarID'] . "'>DisLike(" . $row['dislajk'] . ")</a></div>";
-    echo "<div class='reply-button'><a href='javascript:void(0)' class='report' title='".$row['komentarID']."'>Report</a></div>";
+
+    if($_SESSION['korisnik']=="user")
+    {
+        echo "<div class='reply-button'><a href='javascript:void(0)' class='like' title='" . $row['komentarID'] . "'>Like(" . $row['lajk'] . ")</a></div>";
+        echo "<div class='reply-button'><a href='javascript:void(0)' class='dislike' title='" . $row['komentarID'] . "'>DisLike(" . $row['dislajk'] . ")</a></div>";
+        echo "<div class='reply-button'><a href='javascript:void(0)' class='report' title='" . $row['komentarID'] . "'>Report</a></div>";
+    }
+
     echo "</div>";
     echo "<div class='clearfix'></div>";
     echo "</div>";

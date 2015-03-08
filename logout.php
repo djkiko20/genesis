@@ -8,22 +8,4 @@
 session_start();
 session_destroy();
 
-
-if(strlen(session_id())==0)
-{
-    echo "nula";
-}
-else
-{
-    echo "ne e nula";
-}
-
-session_start();
-if(strlen(session_id())==0)
-{
-    echo "nula";
-}
-else
-{
-    echo "ne e nula";
-}
+header('location: index.php');

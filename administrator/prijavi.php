@@ -87,16 +87,59 @@ echo $_SESSION['status'];
             <div id="contentwrapper">
                 <div class="main_content">
 
-					<div class="row-fluid">
-						<div class="span12">
-							<ul class="dshb_icoNav tac">
-								<li><a href="javascript:void(0)" style="background-image: url(img/gCons/multi-agents.png)"><span class="label label-info">+10</span> Корисници</a></li>
-								<li><a href="javascript:void(0)" style="background-image: url(img/gCons/chat-.png)"><span class="label label-important">26</span> Мислења</a></li>
-							</ul>
-						</div>
-					</div>
+                    <?php
+
+                    include_once('skripti/connection.php');
+
+					$sql="select prijavi.tekst as zosto,pred.tekst as tekst, prijavi.komentarID as komentarID from tbl_prijavi prijavi
+                        join tbl_komentari_predmeti pred on pred.komentarID=prijavi.komentarID";
+                    $rez=$conn->query($sql);
 
 
+
+
+                    echo "<table>";
+
+                    foreach($rez as $r)
+                    {
+                        echo "<tr>";
+
+                        echo "<td>";
+                                echo $r['zosto'];
+                        echo "</td>";
+
+
+                        echo "<td>";
+
+                        echo "</td>";
+
+                        echo "<td>";
+
+                        echo "</td>";
+                        echo "<td>";
+
+                        echo "</td>";
+
+                        echo "<td>";
+                        echo $r['tekst'];
+                        echo "</td>";
+
+                        echo "<td>";
+                        echo "<a href='skripti/odobri.php?id=".$r['komentarID']."'><input type='button' value='Одобри'></a>";
+                        echo "</td>";
+
+                        echo "<td>";
+                        echo "<a href='skripti/odbij.php?id=".$r['komentarID']."'><input type='button' value='Одбиј'></a>";
+                        echo "</td>";
+
+                        echo "<tr>";
+
+
+
+                    }
+                    echo "</table>";
+
+                ?>
 
 
                 </div>

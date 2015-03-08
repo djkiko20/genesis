@@ -1,12 +1,8 @@
 <?php
 include_once('skripti_klient/connection.php');
 session_start();
-echo session_id();
 
-
-if(strlen(session_id())==0)
-{
-
+if($_SESSION['korisnik']!="user") {
 
     echo "<div class='sime' style='  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 850px;'>
        <div class='loginRegister'>
@@ -16,15 +12,13 @@ if(strlen(session_id())==0)
 
        </div>";
 
-
 }
-else
-{
+else {
 
 
     echo "<div class='sime' style='  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 850px;'>
        <div class='loginRegister'>
-           <div class='sc_button medium blue' id='logout'><a href='logout.php'>Log out </a></div>
+           <div class='sc_button medium blue' style='margin-left: 150px;' id='logout'><a style='color: white;text-decoration: none;' href='logout.php'>Log out </a></div>
 
        </div>
 
@@ -99,7 +93,7 @@ else
         <ul id="mainmenu" style=" height: 65px;  margin-right: -150px;     width: 700px;">
 
             <li style="padding-left: 20px; margin-left: 80px;">
-                <a href="index.html">Почетна</a>
+                <a href="index.php">Почетна</a>
 
             </li>
             <li style=" margin-left: 80px;">
@@ -196,7 +190,7 @@ else
         </script>
         <!--                        <input type="text" id="demo-input" class="predmeti" style="visibility: hidden;"/>-->
         <div class="pred">
-            <label class="naslovPredmet" style="visibility: hidden">Професори <span>*</span></label>
+            <label class="naslovPredmet" style="visibility: hidden">Предмет <span>*</span></label>
             <input type="text" id="demo-input" name="profesori" style="visibility: hidden"/>
         </div>
         <script type="text/javascript">
@@ -303,7 +297,7 @@ else
         <label>Email <span>*</span></label>
         <input type="email" name="email" id="email">
         <label>Лозинка <span>*</span></label>
-        <input type="text" name="pass" id="pass">
+        <input type="password" name="pass" id="pass">
 
 
         <input type="submit" id="sendL" value="Логирај се"/>

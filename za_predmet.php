@@ -1,3 +1,36 @@
+<?php
+include_once('skripti_klient/connection.php');
+session_start();
+
+if($_SESSION['korisnik']!="user") {
+
+    echo "<div class='sime' style='  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 850px;'>
+       <div class='loginRegister'>
+           <div class='sc_button medium blue' id='logiraj'>Login</div>
+           <div class='sc_button medium blue' id='registriraj'>Register</div>
+       </div>
+
+       </div>";
+
+}
+else {
+
+
+    echo "<div class='sime' style='  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 850px;'>
+       <div class='loginRegister'>
+           <div class='sc_button medium blue' style='margin-left: 150px;' id='logout'><a style='color: white;text-decoration: none;' href='logout.php'>Log out </a></div>
+
+       </div>
+
+       </div>";
+
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +46,13 @@
 <![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
     <script src="administrator/js/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <script src="assets/js/loginUp.js"></script>
+
+    <link rel="stylesheet" href="assets/css/register.css" />
+    <script src="assets/js/registerUp.js"></script>
 </head>
 <body>
 <?php
@@ -28,13 +68,13 @@ $predmet=$_GET['predmet'];
 <div class="container_full">
 	<!-- header -->
     <div id="header_wrapper">
-        <div class="sime" style="  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 823px;">
-            <div class="loginRegister">
-                <div class="sc_button medium blue" id="logiraj">Login</div>
-                <div class="sc_button medium blue" id="registriraj">Register</div>
-            </div>
-
-        </div>
+<!--        <div class="sime" style="  height: 30px; margin-top: 2px;padding-bottom: 17px; margin-left: 823px;">-->
+<!--            <div class="loginRegister">-->
+<!--                <div class="sc_button medium blue" id="logiraj">Login</div>-->
+<!--                <div class="sc_button medium blue" id="registriraj">Register</div>-->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
         <!-- menu -->
         <div id="header" style=" height: 65px; ">
             <!-- logo -->
@@ -105,6 +145,58 @@ $predmet=$_GET['predmet'];
 	<!-- container 12 end -->
 	<!-- container 12 -->
 	<div class="container_12">
+
+
+
+
+
+        <!-- Login Form -->
+
+        <div id="loginDiv">
+            <form class="form" action="Login.php" id="contactL" method="post">
+
+                <h3>Логирај се</h3>
+                <label>Email <span>*</span></label>
+                <input type="email" name="email" id="email">
+                <label>Лозинка <span>*</span></label>
+                <input type="text" name="pass" id="pass">
+
+
+                <input type="submit" id="sendL" value="Логирај се"/>
+                <input type="button" id="cancelL" value="Откажи"/>
+                <br/>
+            </form>
+        </div>
+
+        <!-- Login Form END-->
+
+
+
+        <!-- Register Form -->
+
+        <div id="regDiv">
+            <form class="form" action="register.php" id="contactR" method="post">
+
+                <h3>Регистрирај се</h3>
+                <label>Име <span>*</span></label>
+                <input type="text" name="ime" id="ime">
+
+                <label>Презиме <span>*</span></label>
+                <input type="text" name="prezime" id="prezime">
+
+                <label>Email <span>*</span></label>
+                <input type="email" name="email" id="emailR">
+
+                <label>Лозинка <span>*</span></label>
+                <input type="password" name="pass" id="passR">
+
+
+                <input type="submit" id="sendR" value="Регистрирај се"/>
+                <input type="button" id="cancelR" value="Откажи"/>
+                <br/>
+            </form>
+        </div>
+
 		<!-- tabs -->
 		<div class="grid_6">
 
@@ -168,22 +260,29 @@ $predmet=$_GET['predmet'];
             <div id="responsecontainer">
 
             </div>
+    <?php
+        if($_SESSION['korisnik']=="user") {
+            ?>
             <form method="post" action="skripti_klient/vnesi_komentar.php">
-                <textarea name="komentar" id="komentar" placeholder="Внесете коментар" style="width: 953px;height: 70px;"></textarea>
+                <textarea name="komentar" id="komentar" placeholder="Внесете коментар"
+                          style="width: 953px;height: 70px;"></textarea>
                 <input type="hidden" name="predmetID" id="predmetID" value="<?php echo $predmet ?>">
                 <input type="hidden" name="univerzitet" id="univerzitet" value="<?php echo $univerzitet ?>">
                 <input type="hidden" name="fakultet" id="fakultet" value="<?php echo $fakultet ?>">
 
-            <!-- comment text end -->
-            <!-- comment info -->
-            <div class="meta-info float_right">
+                <!-- comment text end -->
+                <!-- comment info -->
+                <div class="meta-info float_right">
 
-                <input type="button"  id="vnesi_komentar" class="sc_button medium blue" value="Внеси коментар" style="height: 35px; margin-right: 5px;" />
-            </div>
-            <div class="clearfix" ></div>
-            <!-- comment info end -->
+                    <input type="button" id="vnesi_komentar" class="sc_button medium blue" value="Внеси коментар"  style="height: 35px;  margin-right: 115px;"/>
+                </div>
+                <div class="clearfix"></div>
+                <!-- comment info end -->
             </form>
 
+        <?php
+        }
+        ?>
             <!-- AJAX POVIK ZA DODAVANJE VO BAZA -->
             <script type="text/javascript">
                 $(document).ready(function() {
@@ -250,9 +349,15 @@ $predmet=$_GET['predmet'];
             echo "<input type='hidden' id='komentarID' value='".$r['komentarID']."' />";
             echo "<div class='meta-info float_right'>";
             echo "<div class='date-info'>".$r['datum']."</div>";
-            echo "<div class='reply-button'><a href='javascript:void(0)' class='like' title='".$r['komentarID']."'>Like(".$r['lajk'].")</a></div>";
-            echo "<div class='reply-button'><a href='javascript:void(0)' class='dislike' title='".$r['komentarID']."'>DisLike(".$r['dislajk'].")</a></div>";
-            echo "<div class='reply-button'><a href='javascript:void(0)' class='report' title='".$r['komentarID']."' onclick='reportFunction(".$r['komentarID'].")'>Report</a></div>";
+
+            if($_SESSION['korisnik']=="user") {
+
+                echo "<div class='reply-button'><a href='javascript:void(0)' class='like' title='" . $r['komentarID'] . "'>Like(" . $r['lajk'] . ")</a></div>";
+                echo "<div class='reply-button'><a href='javascript:void(0)' class='dislike' title='" . $r['komentarID'] . "'>DisLike(" . $r['dislajk'] . ")</a></div>";
+                echo "<div class='reply-button'><a href='javascript:void(0)' class='report' title='" . $r['komentarID'] . "' onclick='reportFunction(" . $r['komentarID'] . ")'>Report</a></div>";
+            }
+
+
             echo "</div>";
             echo "<div class='clearfix'></div>";
             echo "</div>";

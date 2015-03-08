@@ -17,7 +17,7 @@ if($_POST)
     $niza=explode("@",$email);
     if(substr_count($niza[1],".ukim.mk")==1 && count($niza)==2)
     {
-            echo "Vleze";
+
         $sql="Insert into tbl_korisnici(ime,prezime,email,lozinka) VALUES (:ime,:prezime,:email,:lozinka)";
         $rez=$conn->prepare($sql);
         $rez->bindParam(':ime',$ime);
@@ -31,6 +31,7 @@ if($_POST)
         else
         {
             echo "Neuspesna registracija";
+            header('Location: index.php');
         }
 
 

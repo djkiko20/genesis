@@ -26,7 +26,7 @@ if($_POST)
     {
         echo "Vleze";
         session_start();
-        $_SESSION['korisnik']="vklucen";
+        $_SESSION['korisnik']="user";
         header('Location: index.php');
     }
     else{
