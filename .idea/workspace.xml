@@ -25,36 +25,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="za_predmet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/za_predmet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1153846" vertical-offset="3590" max-vertical-offset="6885">
-              <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="228" selection-end-column="39" />
+            <state vertical-scroll-proportion="-12.038462" vertical-offset="3716" max-vertical-offset="6528">
+              <caret line="237" column="17" selection-start-line="215" selection-start-column="8" selection-end-line="237" selection-end-column="17" />
               <folding>
-                <marker date="1425803557695" expanded="true" signature="4060:4090" placeholder="SELECT * FRO..tbl_univerziteti..." />
-                <marker date="1425803557695" expanded="true" signature="7580:7610" placeholder="SELECT * FRO..tbl_univerziteti..." />
+                <marker date="1425816653266" expanded="true" signature="2557:2600" placeholder="select * fro..tbl_predmeti..." />
+                <marker date="1425816653266" expanded="true" signature="3529:3751" placeholder="select prr.p..tbl_profesori_predmeti..." />
+                <marker date="1425816653266" expanded="true" signature="7818:7912" placeholder="select * fro..tbl_komentari_predmeti..." />
+                <marker date="1425816653266" expanded="true" signature="8088:8118" placeholder="..." />
+                <marker date="1425816653266" expanded="true" signature="9069:9324" placeholder="..." />
+                <marker date="1425816653266" expanded="true" signature="9081:9318" placeholder="..." />
+                <marker date="1425816653266" expanded="true" signature="9137:9314" placeholder="..." />
+                <marker date="1425816653266" expanded="true" signature="9237:9293" placeholder="..." />
+                <marker date="1425816653266" expanded="true" signature="9398:9445" placeholder="..." />
+                <marker date="1425816653266" expanded="true" signature="9425:9445" placeholder="{...}" />
+                <marker date="1425816653266" expanded="true" signature="9680:9703" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="za_predmet.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/za_predmet.php">
+      <file leaf-file-name="za_profesor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/za_profesor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5809859" vertical-offset="3512" max-vertical-offset="6528">
-              <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
+            <state vertical-scroll-proportion="-21.192308" vertical-offset="3835" max-vertical-offset="6443">
+              <caret line="258" column="36" selection-start-line="258" selection-start-column="36" selection-end-line="258" selection-end-column="36" />
               <folding>
-                <marker date="1425812166448" expanded="true" signature="2557:2600" placeholder="select * fro..tbl_predmeti..." />
-                <marker date="1425812166448" expanded="true" signature="3529:3751" placeholder="select prr.p..tbl_profesori_predmeti..." />
-                <marker date="1425812166448" expanded="true" signature="7805:7899" placeholder="select * fro..tbl_komentari_predmeti..." />
-                <marker date="1425812166448" expanded="true" signature="8075:8105" placeholder="..." />
-                <marker date="1425812166448" expanded="true" signature="9056:9311" placeholder="..." />
-                <marker date="1425812166448" expanded="true" signature="9068:9305" placeholder="..." />
-                <marker date="1425812166448" expanded="true" signature="9124:9301" placeholder="..." />
-                <marker date="1425812166448" expanded="true" signature="9224:9280" placeholder="..." />
-                <marker date="1425812166448" expanded="true" signature="9385:9432" placeholder="..." />
-                <marker date="1425812166448" expanded="true" signature="9412:9432" placeholder="{...}" />
-                <marker date="1425812166448" expanded="true" signature="9667:9690" placeholder="..." />
+                <marker date="1425816800388" expanded="true" signature="150:633" placeholder="Select tbl_p..tbl_profesori..." />
+                <marker date="1425816800388" expanded="true" signature="8179:8274" placeholder="select * fro..tbl_komentari_profesori..." />
+                <marker date="1425816800388" expanded="false" signature="8450:8480" placeholder="..." />
+                <marker date="1425816800388" expanded="false" signature="10004:10027" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_report.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skripti_klient/add_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0240964" vertical-offset="0" max-vertical-offset="799">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1425816845163" expanded="true" signature="20:106" placeholder="insert into ..." />
+                <marker date="1425816845163" expanded="true" signature="274:360" placeholder="insert into ..." />
+                <marker date="1425816845163" expanded="true" signature="693:779" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vnesi_komentar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skripti_klient/vnesi_komentar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="765">
+              <caret line="36" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <marker date="1425796460000" expanded="false" signature="420:434" placeholder="..." />
+                <marker date="1425796460000" expanded="true" signature="497:646" placeholder="insert into ..." />
+                <marker date="1425796460000" expanded="false" signature="705:717" placeholder="..." />
+                <marker date="1425796460000" expanded="false" signature="911:925" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -85,10 +117,11 @@
         <option value="$PROJECT_DIR$/load_more_results/load_more.js" />
         <option value="$PROJECT_DIR$/load_more_results/index.php" />
         <option value="$PROJECT_DIR$/load_more_results/dbConfig.php" />
-        <option value="$PROJECT_DIR$/za_profesor.php" />
         <option value="$PROJECT_DIR$/load_more_results/more_content_profesor.php" />
         <option value="$PROJECT_DIR$/load_more_results/more_content.php" />
         <option value="$PROJECT_DIR$/za_predmet.php" />
+        <option value="$PROJECT_DIR$/za_profesor.php" />
+        <option value="$PROJECT_DIR$/skripti_klient/add_report.php" />
       </list>
     </option>
   </component>
@@ -140,20 +173,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Hakaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dreamlife" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hakaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="load_more_results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,8 +286,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6885">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1425803557695" expanded="true" signature="4060:4090" placeholder="SELECT * FRO..tbl_univerziteti..." />
-            <marker date="1425803557695" expanded="true" signature="7580:7610" placeholder="SELECT * FRO..tbl_univerziteti..." />
+            <marker date="1425803557695" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_univerziteti..." />
+            <marker date="1425803557695" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_univerziteti..." />
           </folding>
         </state>
       </provider>
@@ -317,10 +336,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
-            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -362,17 +378,6 @@
           <folding>
             <marker date="1425780404000" expanded="false" signature="-1:-1" placeholder="..." />
             <marker date="1425780404000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skripti_klient/get_fakulteti.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
-            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
           </folding>
         </state>
       </provider>
@@ -471,19 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/za_profesor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46126762" vertical-offset="4090" max-vertical-offset="6001">
-          <caret line="256" column="116" selection-start-line="256" selection-start-column="116" selection-end-line="256" selection-end-column="116" />
-          <folding>
-            <marker date="1425811605281" expanded="true" signature="-1:-1" placeholder="Select tbl_p..tbl_profesori..." />
-            <marker date="1425811605281" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_komentari_profesori..." />
-            <marker date="1425811605281" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1425811605281" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/load_more_results/more_content_profesor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.568662" vertical-offset="0" max-vertical-offset="748">
@@ -508,33 +500,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/get_fakulteti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="374">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1153846" vertical-offset="3590" max-vertical-offset="6885">
-          <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="228" selection-end-column="39" />
+        <state vertical-scroll-proportion="-9.038462" vertical-offset="3488" max-vertical-offset="6885">
+          <caret line="219" column="44" selection-start-line="219" selection-start-column="44" selection-end-line="219" selection-end-column="44" />
           <folding>
-            <marker date="1425803557695" expanded="true" signature="4060:4090" placeholder="SELECT * FRO..tbl_univerziteti..." />
-            <marker date="1425803557695" expanded="true" signature="7580:7610" placeholder="SELECT * FRO..tbl_univerziteti..." />
+            <marker date="1425803557695" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_univerziteti..." />
+            <marker date="1425803557695" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_univerziteti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/vnesi_komentar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="765">
+          <caret line="36" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <marker date="1425796460000" expanded="false" signature="420:434" placeholder="..." />
+            <marker date="1425796460000" expanded="true" signature="497:646" placeholder="insert into ..." />
+            <marker date="1425796460000" expanded="false" signature="705:717" placeholder="..." />
+            <marker date="1425796460000" expanded="false" signature="911:925" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/za_predmet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5809859" vertical-offset="3512" max-vertical-offset="6528">
-          <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
+        <state vertical-scroll-proportion="-12.038462" vertical-offset="3716" max-vertical-offset="6528">
+          <caret line="237" column="17" selection-start-line="215" selection-start-column="8" selection-end-line="237" selection-end-column="17" />
           <folding>
-            <marker date="1425812166448" expanded="true" signature="2557:2600" placeholder="select * fro..tbl_predmeti..." />
-            <marker date="1425812166448" expanded="true" signature="3529:3751" placeholder="select prr.p..tbl_profesori_predmeti..." />
-            <marker date="1425812166448" expanded="true" signature="7805:7899" placeholder="select * fro..tbl_komentari_predmeti..." />
-            <marker date="1425812166448" expanded="true" signature="8075:8105" placeholder="..." />
-            <marker date="1425812166448" expanded="true" signature="9056:9311" placeholder="..." />
-            <marker date="1425812166448" expanded="true" signature="9068:9305" placeholder="..." />
-            <marker date="1425812166448" expanded="true" signature="9124:9301" placeholder="..." />
-            <marker date="1425812166448" expanded="true" signature="9224:9280" placeholder="..." />
-            <marker date="1425812166448" expanded="true" signature="9385:9432" placeholder="..." />
-            <marker date="1425812166448" expanded="true" signature="9412:9432" placeholder="{...}" />
-            <marker date="1425812166448" expanded="true" signature="9667:9690" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="2557:2600" placeholder="select * fro..tbl_predmeti..." />
+            <marker date="1425816653266" expanded="true" signature="3529:3751" placeholder="select prr.p..tbl_profesori_predmeti..." />
+            <marker date="1425816653266" expanded="true" signature="7818:7912" placeholder="select * fro..tbl_komentari_predmeti..." />
+            <marker date="1425816653266" expanded="true" signature="8088:8118" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="9069:9324" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="9081:9318" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="9137:9314" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="9237:9293" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="9398:9445" placeholder="..." />
+            <marker date="1425816653266" expanded="true" signature="9425:9445" placeholder="{...}" />
+            <marker date="1425816653266" expanded="true" signature="9680:9703" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/za_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.192308" vertical-offset="3835" max-vertical-offset="6443">
+          <caret line="258" column="36" selection-start-line="258" selection-start-column="36" selection-end-line="258" selection-end-column="36" />
+          <folding>
+            <marker date="1425816800388" expanded="true" signature="150:633" placeholder="Select tbl_p..tbl_profesori..." />
+            <marker date="1425816800388" expanded="true" signature="8179:8274" placeholder="select * fro..tbl_komentari_profesori..." />
+            <marker date="1425816800388" expanded="false" signature="8450:8480" placeholder="..." />
+            <marker date="1425816800388" expanded="false" signature="10004:10027" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/add_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0240964" vertical-offset="0" max-vertical-offset="799">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1425816845163" expanded="true" signature="20:106" placeholder="insert into ..." />
+            <marker date="1425816845163" expanded="true" signature="274:360" placeholder="insert into ..." />
+            <marker date="1425816845163" expanded="true" signature="693:779" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>

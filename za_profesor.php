@@ -238,6 +238,32 @@ foreach($row as $pr)
                 });
             });
         </script>
+
+        <script>
+            function reportFunction(komentarID) {
+                var pricina = prompt("Зошто го пријавувате овој коментар?", "");
+                if (pricina != null) {
+                    //alert(komentarID)
+                    vnesiReport(pricina, komentarID);
+                }
+            }
+
+            function vnesiReport(pricina, komentarID) {
+                $.ajax({
+                    url: "skripti_klient/add_report.php?tip=1",
+                    type: "POST",
+                    dataType:'html',
+                    data: {pricina: pricina,
+                        komentarID: komentarID},
+                    success: function(data){
+                        alert(data);
+                    }
+                });
+
+            }
+        </script>
+
+
         <div id="load_more_ctnt">
         <?php
 
