@@ -149,7 +149,7 @@ else
 </div>
 <!-- ovde e formata so pop up PRONAJDI PREDMET-->
 <div id="contactdiv">
-    <form class="form" action="za_predmet.html" id="contact">
+    <form class="form" action="za_predmet.php" id="contact">
 
         <h3>Пронајди предмет</h3>
         <label>Универзитет <span>*</span></label>
