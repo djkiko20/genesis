@@ -224,13 +224,13 @@ $predmet=$_GET['predmet'];
 
             function vnesiReport(pricina, komentarID) {
                 $.ajax({ //DO OVDE SUMMMMMMMMMM
-                    url: "skripti_klient/get_fakulteti.php",
+                    url: "skripti_klient/add_report.php?tip=1",
                     type: "POST",
                     dataType:'html',
-                    data: {idU: idU},
+                    data: {pricina: pricina,
+                        komentarID: komentarID},
                     success: function(data){
-                        $("#fakulteti1").html(data);
-                        f1();
+                        alert(data);
                     }
                 });
 
