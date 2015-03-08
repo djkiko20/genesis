@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7f5e202-21a7-4a62-911b-72b0e6524a0b" name="Default" comment="" />
+    <ignored path="dreamlife.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="dreamlife" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.1153846" vertical-offset="3590" max-vertical-offset="6885">
+              <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="228" selection-end-column="39" />
+              <folding>
+                <marker date="1425803557695" expanded="true" signature="4060:4090" placeholder="SELECT * FRO..tbl_univerziteti..." />
+                <marker date="1425803557695" expanded="true" signature="7580:7610" placeholder="SELECT * FRO..tbl_univerziteti..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="za_predmet.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/za_predmet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5809859" vertical-offset="3512" max-vertical-offset="6528">
+              <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
+              <folding>
+                <marker date="1425812166448" expanded="true" signature="2557:2600" placeholder="select * fro..tbl_predmeti..." />
+                <marker date="1425812166448" expanded="true" signature="3529:3751" placeholder="select prr.p..tbl_profesori_predmeti..." />
+                <marker date="1425812166448" expanded="true" signature="7805:7899" placeholder="select * fro..tbl_komentari_predmeti..." />
+                <marker date="1425812166448" expanded="true" signature="8075:8105" placeholder="..." />
+                <marker date="1425812166448" expanded="true" signature="9056:9311" placeholder="..." />
+                <marker date="1425812166448" expanded="true" signature="9068:9305" placeholder="..." />
+                <marker date="1425812166448" expanded="true" signature="9124:9301" placeholder="..." />
+                <marker date="1425812166448" expanded="true" signature="9224:9280" placeholder="..." />
+                <marker date="1425812166448" expanded="true" signature="9385:9432" placeholder="..." />
+                <marker date="1425812166448" expanded="true" signature="9412:9432" placeholder="{...}" />
+                <marker date="1425812166448" expanded="true" signature="9667:9690" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/za_predmet.html" />
+        <option value="$PROJECT_DIR$/za_profesor.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/jquery.tokeninput.js" />
+        <option value="$PROJECT_DIR$/administrator/predmet.php" />
+        <option value="$PROJECT_DIR$/skripti_klient/get_fakulteti.php" />
+        <option value="$PROJECT_DIR$/assets/css/token-input.css" />
+        <option value="$PROJECT_DIR$/skripti_klient/lista_auto_complete_predmeti.php" />
+        <option value="$PROJECT_DIR$/skripti_klient/lista_auto_complete_profesori.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/skripti_klient/lajk_dislajk_profesori.php" />
+        <option value="$PROJECT_DIR$/skripti_klient/lajk_dislajk.php" />
+        <option value="$PROJECT_DIR$/load_more_results/load_more.js" />
+        <option value="$PROJECT_DIR$/load_more_results/index.php" />
+        <option value="$PROJECT_DIR$/load_more_results/dbConfig.php" />
+        <option value="$PROJECT_DIR$/za_profesor.php" />
+        <option value="$PROJECT_DIR$/load_more_results/more_content_profesor.php" />
+        <option value="$PROJECT_DIR$/load_more_results/more_content.php" />
+        <option value="$PROJECT_DIR$/za_predmet.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dreamlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dreamlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hakaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dreamlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hakaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="load_more_results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Hakaton\load_more_results" />
+      <recent name="C:\wamp\www\Hakaton\skripti_klient" />
+      <recent name="C:\wamp\www\Hakaton\assets\css" />
+      <recent name="C:\wamp\www\Hakaton\assets\js" />
+      <recent name="C:\wamp\www\Hakaton" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7f5e202-21a7-4a62-911b-72b0e6524a0b" name="Default" comment="" />
+      <created>1425762466760</created>
+      <option name="number" value="Default" />
+      <updated>1425762466760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19399707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1425803557695" expanded="true" signature="4060:4090" placeholder="SELECT * FRO..tbl_univerziteti..." />
+            <marker date="1425803557695" expanded="true" signature="7580:7610" placeholder="SELECT * FRO..tbl_univerziteti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/lista_auto_complete_profesori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <marker date="1425789098000" expanded="true" signature="-1:-1" placeholder="SELECT profe..tbl_profesori..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/token-input.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2057">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/lista_auto_complete_predmeti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="748">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <marker date="1425789092000" expanded="true" signature="-1:-1" placeholder="SELECT predm..tbl_predmeti..." />
+            <marker date="1425789092000" expanded="true" signature="-1:-1" placeholder="SELECT predm..tbl_predmeti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/predmet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="4369">
+          <caret line="116" column="128" selection-start-line="116" selection-start-column="115" selection-end-line="116" selection-end-column="128" />
+          <folding>
+            <marker date="1425780404000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425780404000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/get_fakulteti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
+            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/fakultet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="1224" max-vertical-offset="4233">
+          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery.tokeninput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1447811" vertical-offset="0" max-vertical-offset="14637">
+          <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/token-input.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2057">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/predmet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="4369">
+          <caret line="116" column="128" selection-start-line="116" selection-start-column="115" selection-end-line="116" selection-end-column="128" />
+          <folding>
+            <marker date="1425780404000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425780404000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/get_fakulteti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
+            <marker date="1425781090000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_fakulteti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/lista_auto_complete_predmeti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="748">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <marker date="1425789092000" expanded="true" signature="-1:-1" placeholder="SELECT predm..tbl_predmeti..." />
+            <marker date="1425789092000" expanded="true" signature="-1:-1" placeholder="SELECT predm..tbl_predmeti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/lista_auto_complete_profesori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <marker date="1425789098000" expanded="true" signature="-1:-1" placeholder="SELECT profe..tbl_profesori..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/lajk_dislajk_profesori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.692308" vertical-offset="286" max-vertical-offset="1071">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <marker date="1425805726149" expanded="true" signature="-1:-1" placeholder="select lajk,..tbl_komentari_profesori..." />
+            <marker date="1425805726149" expanded="true" signature="-1:-1" placeholder="update tbl_k..." />
+            <marker date="1425805726149" expanded="true" signature="-1:-1" placeholder="update tbl_k..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/lajk_dislajk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.76923" vertical-offset="320" max-vertical-offset="1003">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <marker date="1425805755886" expanded="true" signature="-1:-1" placeholder="select lajk,..tbl_komentari_predmeti..." />
+            <marker date="1425805755886" expanded="true" signature="-1:-1" placeholder="update tbl_k..." />
+            <marker date="1425805755886" expanded="true" signature="-1:-1" placeholder="update tbl_k..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/univerzitet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7957747" vertical-offset="1581" max-vertical-offset="4879">
+          <caret line="153" column="28" selection-start-line="153" selection-start-column="28" selection-end-line="167" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_more_results/load_more.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.112026356" vertical-offset="0" max-vertical-offset="629">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_more_results/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14113598" vertical-offset="252" max-vertical-offset="1700">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1425808988886" expanded="true" signature="-1:-1" placeholder="select komen..tbl_komentari_predmeti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skripti_klient/vnesi_komentar_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62852114" vertical-offset="0" max-vertical-offset="765">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <marker date="1425802058000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425802058000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1425802058000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425802058000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_more_results/dbConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23407917" vertical-offset="0" max-vertical-offset="581">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/za_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46126762" vertical-offset="4090" max-vertical-offset="6001">
+          <caret line="256" column="116" selection-start-line="256" selection-start-column="116" selection-end-line="256" selection-end-column="116" />
+          <folding>
+            <marker date="1425811605281" expanded="true" signature="-1:-1" placeholder="Select tbl_p..tbl_profesori..." />
+            <marker date="1425811605281" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_komentari_profesori..." />
+            <marker date="1425811605281" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425811605281" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_more_results/more_content_profesor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.568662" vertical-offset="0" max-vertical-offset="748">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <marker date="1425811616746" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_komentari_profesori..." />
+            <marker date="1425811616746" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425811616746" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_more_results/more_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5387324" vertical-offset="0" max-vertical-offset="748">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <folding>
+            <marker date="1425811624127" expanded="true" signature="-1:-1" placeholder="select * fro..tbl_komentari_predmeti..." />
+            <marker date="1425811624127" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1425811624127" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1153846" vertical-offset="3590" max-vertical-offset="6885">
+          <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="228" selection-end-column="39" />
+          <folding>
+            <marker date="1425803557695" expanded="true" signature="4060:4090" placeholder="SELECT * FRO..tbl_univerziteti..." />
+            <marker date="1425803557695" expanded="true" signature="7580:7610" placeholder="SELECT * FRO..tbl_univerziteti..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/za_predmet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5809859" vertical-offset="3512" max-vertical-offset="6528">
+          <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="51" />
+          <folding>
+            <marker date="1425812166448" expanded="true" signature="2557:2600" placeholder="select * fro..tbl_predmeti..." />
+            <marker date="1425812166448" expanded="true" signature="3529:3751" placeholder="select prr.p..tbl_profesori_predmeti..." />
+            <marker date="1425812166448" expanded="true" signature="7805:7899" placeholder="select * fro..tbl_komentari_predmeti..." />
+            <marker date="1425812166448" expanded="true" signature="8075:8105" placeholder="..." />
+            <marker date="1425812166448" expanded="true" signature="9056:9311" placeholder="..." />
+            <marker date="1425812166448" expanded="true" signature="9068:9305" placeholder="..." />
+            <marker date="1425812166448" expanded="true" signature="9124:9301" placeholder="..." />
+            <marker date="1425812166448" expanded="true" signature="9224:9280" placeholder="..." />
+            <marker date="1425812166448" expanded="true" signature="9385:9432" placeholder="..." />
+            <marker date="1425812166448" expanded="true" signature="9412:9432" placeholder="{...}" />
+            <marker date="1425812166448" expanded="true" signature="9667:9690" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
